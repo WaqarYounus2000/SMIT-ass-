@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="unorder">
+        <li>1 <button value = "1" >x</button ></li>
+        <li>2 <button value = "2">x</button ></li>
+        <li>3 <button value = "3">x</button ></li>
+        <li>4 <button value = "4">x</button ></li>
+        <li>5 <button value = "5">x</button ></li>
+        <li>6 <button value = "6">x</button ></li>
+      
+</body>
+
+<script>
+    var obj12 = document.querySelectorAll("#unorder li");
+    // var obj12 = document.getElementById("unorder");
+
+
+
+    // obj12[1].innerHTML = " ";
+    // obj12[2].outerHTML.removeChild(obj12.lastElementChild())
+
+    console.log(obj12[2].outerHTML)
+    obj12[2].outerHTML = '';
+    console.log(obj12   [5])
+</script>
+</html>

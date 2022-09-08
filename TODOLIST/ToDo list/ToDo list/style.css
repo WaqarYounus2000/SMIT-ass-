@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(30, 31, 31);
+}
+
+
+
+.center{
+     display: flex;
+     top: 25px;
+    justify-content: start; 
+     flex-direction: column;  
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 65px;
+
+    
+    
+}
+
+.inputandbutton{
+    display: flex;
+    /* border: 2px solid blue; */
+    
+}
+
+.unorderlistclass{
+    /* border: 2px solid green; */
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.unorderlistclass>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: decimal-leading-zero;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.inputfieldclass{
+    border: none;
+    outline: none;
+    height: 25px;
+}
+.buttonclass{
+    border: none;
+    outline: none;
+    background-color: rgb(241, 147, 7);
+ 
+}
